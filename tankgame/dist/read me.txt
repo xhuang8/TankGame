@@ -1,0 +1,31 @@
+csc 413
+XiaoQian Huang
+
+IDE: NetBeans 8.2
+java version: 1.8
+current working directory: tankgame.Tankgame
+
+Tankgame control
+
+player 1: 
+          
+          W: forward
+          S: backward
+          A: left
+          D: right
+          F: fire
+
+player 2:
+
+          UP(my computer is PgUp):forward
+          DOWN(my computer is PgDn): backward
+          LEFT(my computer is Home): left
+          RIGHT(my computer is End): right
+          ENTER: fire
+
+Instruction:
+
+Each tank has 3 life, and their full HP is 100. Each tank will carry a power of 10 and fire
+10 times the power of bullets. If they hit opponent, it will cause a damage of 10 points. 
+However, each tank can power up. If they power up for one time, they will gain 10 points of 
+bullets. Tanks will get the power up through hitting the breakablewall with a chance of 20%.
